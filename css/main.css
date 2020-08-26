@@ -1,0 +1,380 @@
+/********** BASE STYLES **********/
+
+body {
+
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+/********** GRID **********/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    height: 211px;
+    width: 398px;
+}
+
+/********** NAVIGATION **********/
+
+nav { 
+    padding: 60px 0 40px 160px;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav ul li a{
+    color: #00ab66;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/********** HOME PAGE **********/
+
+/*HEADER*/
+
+#title-section 
+{
+    font-size: 30px;
+    text-transform: uppercase; 
+}
+
+#title-section span{
+    color: #00ab66;
+}
+
+
+
+/*TOP-SECTION*/
+
+#top-section img{
+    border-bottom: 5px solid #00ab66;
+    border-top: 5px solid #00ab66;
+    margin-bottom: 30px;
+    width:1200px;
+}
+
+#top-section h2, #reviews h3{
+    color: #00ab66;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 20px 5px 10px 5px;
+    text-transform: uppercase;
+}
+
+#top-section p{
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding: 0 40px 0 5px;
+    text-align: justify; 
+}
+
+
+/*TODAY'S SPECIALS*/
+
+#todays-section {
+    background-image: url("../img/home-image.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+#todays-section h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-top:10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#todays-section ul{
+    list-style-type:none;
+    padding-left: 420px;
+}
+
+#todays-section ul li{
+    color: #00ab66;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+/*REVIEWS*/
+
+.third-width {
+    border: 1px solid #dedbdc;
+}
+
+#reviews p{
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 40px 0 30px;
+}
+
+#reviews span{
+    color:#00ab66;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+
+/********** FOOTER **********/
+
+footer p, a{
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer a{
+    color: #00ab66;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;   
+}
+
+footer span {
+    color: #00ab66;
+    font-family: 'Galada', cursive;
+    font-size: 20px;
+    text-transform: none;
+}
+
+/********** ABOUT PAGE **********/
+
+
+#about-details h3{
+    color: #00ab66;
+    font-size: 16px;
+    margin: 30px 100px; 
+}
+
+#about-details p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 100px;
+}
+
+#about-details img {
+   
+    border-bottom: 5px solid #00ab66;
+    border-top: 5px solid #00ab66;
+    height: auto;
+    margin: 30px 100px; 
+    width: 400px;
+}
+
+
+/********** LOCATION PAGE **********/
+
+#location-image img{
+    border-bottom: 5px solid #00ab66;
+    border-top: 5px solid #00ab66;
+    height: auto;
+    margin: 30px 0px 30px 40px;
+    width: 500px;
+}
+
+#location-bottom-section h3{
+    color: #00ab66;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-top:10px;
+    text-transform: uppercase;
+}
+
+/********** GALLERY PAGE **********/
+
+#gallery img{
+    height: auto;
+    width: 400px;
+}
+
+#gallery img:hover{
+    border-bottom: 5px solid #00ab66;
+    border-top: 5px solid #00ab66;
+}
+
+.third-width-gallery{
+    float:left;
+    height:auto;
+    width: 400px;
+}
+
+/********** RECIPE PAGE **********/
+
+#chef-hat img{
+    height: 80px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+#recipe-main{
+    font-size: 12px;
+    margin: 0px auto;
+    width: 1010px;
+}
+
+.card{
+    border: 2px solid #00ab66; 
+    margin: 30px 0;
+    overflow: auto;
+}
+
+.recipe {
+    box-sizing: border-box;
+    float: left;
+    height: 600px;
+    padding: 20px;
+    width: 502px;   
+}
+
+.image {
+    background: white ;
+    float: left;
+    height: 600px;
+    width: 502px;
+}
+
+#cookies .image {
+background-image: url("../img/gluten-free-sugar-cookies.jpg");
+background-size: cover;
+}
+
+#pesto .image {
+    background-image: url("../img/nut-free-pesto.jpg");
+    background-size: cover;
+    }
+
+#salad .image {
+    background-image: url("../img/watermelon-salad.jpg");
+    background-size: cover;
+        }
+        
+.recipe h2{
+    color: #00ab66;
+    font-size: 24px;
+    text-transform: uppercase;
+    }
+
+/* RECIPE TIMES */
+
+.time {
+    border: 1px solid #3B3B3B;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.prep, .cook, .total {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 6px;
+    width: 33%;
+}
+
+.prep, .cook, .total p {
+    text-transform: uppercase;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time img{
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 15px;
+}
+
+.time-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.time strong {
+    font-family: 'Montserrat';
+}
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    font-size: 12px;
+    width: 240px;   
+}
+
+.ingredients {
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    margin-right: 10px;
+    width: 205px;
+}
+
+.ingredients ul{
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.recipe h3 {
+    border-bottom: 1px solid #3b3b3b;
+    border-top: 1px solid #3b3b3b;
+    color: #00ab66;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+.directions ol{
+    line-height: 22px;
+    padding-left: 15px;
+}
+
+.directions h3 {
+    border-bottom: 1px solid #3b3b3b;
+    border-top: 1px solid #3b3b3b;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 5px 0px;
+}
+
